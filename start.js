@@ -55,8 +55,8 @@ app.get('/api/forge/oauth', function (req, res) {
             'content-type': 'application/x-www-form-urlencoded',
         },
         data: querystring.stringify({
-            client_id: dhSYOXHxcbRMGY7GAACruFMx4UrYJUfc,
-            client_secret: JDGBSGFKVCm4LstD,
+            client_id: FORGE_CLIENT_ID,
+            client_secret: FORGE_CLIENT_SECRET,
             grant_type: 'client_credentials',
             scope: scopes
         })
